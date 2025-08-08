@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.CaracteristiqueExploitationEtape2"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="caractéristiques d'exploitation "
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/noir"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:text="Type du péimétre irrigué"
+        />
+    <RadioGroup
+        android:id="@+id/radioGroupeirrig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        >
+        <RadioButton
+            android:id="@+id/radioButtonpublic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Public"
+            android:textStyle="bold"
+
+            />
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/radioButtonprive"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privé"
+            android:textStyle="bold"
+
+            />
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de puits sur l'exploitation  "
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+    <EditText
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:id="@+id/nbpuits"
+        android:layout_height="30dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:hint="Nombre de puits"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de sontage sul l'exploitation   "
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+    <EditText
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/nbSondage"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:hint="Nombre de sontage"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Est-ce que l'engrais est utilisé ?"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroupeEngrais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        >
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/engrais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oui"
+
+            android:textStyle="bold"
+
+            />
+        <RadioButton
+            android:id="@+id/notEngr"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non"
+            android:textStyle="bold"
+
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Des pesticides sont-ils utilisés?"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroupsintaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        >
+        <RadioButton
+            android:id="@+id/sinitaire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oui"
+            android:textStyle="bold"
+
+            />
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/notSinitaire"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non"
+            android:textStyle="bold"
+
+            />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/buttonSaveOccup"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Enregistrer "
+        android:layout_gravity="center_horizontal"
+
+        android:textStyle="bold" />
+    <ImageButton
+        android:id="@+id/imageButtonretourOcup2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorELm"
+        app:srcCompat="@drawable/ic_keyboard_return_black_24dp"
+
+        />
+
+</LinearLayout>

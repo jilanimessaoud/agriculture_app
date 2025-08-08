@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.ViewMenuAjout$DirectionResponsable"
+    android:background="@color/ListeAjout"
+    android:gravity="center"
+    >
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Exploitation"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorELm"
+        android:background="@drawable/border_button_ajout"
+        android:id="@+id/exploitation"
+        />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Exploitant"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorELm"
+        android:background="@drawable/border_button_ajout"
+        android:id="@+id/exploitant"
+        />
+
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/Retour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/retour"
+        />
+</LinearLayout>
+</LinearLayout>

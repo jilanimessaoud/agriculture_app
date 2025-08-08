@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Production agricole"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+        />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/numeroExploition"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="13dp"
+
+            android:background="@drawable/border"
+            android:ems="11"
+            android:hint="Numéro de Exploitation" />
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/info"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="moyens de production : "
+            />
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:id="@+id/spinerAjout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            ></Spinner>
+
+    </LinearLayout>
+
+<Button
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/border_button"
+    android:text="Valider"
+    android:textColor="@color/colorq"
+    android:textStyle="bold"
+    android:id="@+id/valide"
+    />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_button"
+        android:text="Retour"
+        android:textColor="@color/colorq"
+        android:textStyle="bold"
+        android:id="@+id/Retour"
+        />
+
+</LinearLayout>

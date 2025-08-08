@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ListeAjout"
+    android:orientation="vertical"
+    tools:context=".View.DirectionResponsable">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:text="Bonjour M."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorELm"
+        android:id="@+id/nomResponsable"
+
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorELm"
+        android:id="@+id/dateEntree"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Statistiques"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorELm"
+            android:background="@drawable/border_button_ajout"
+            android:id="@+id/buttonStatistique"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Ajouter "
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorELm"
+            android:background="@drawable/border_button_ajout"
+            android:id="@+id/buttonAjout"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Modifier"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorELm"
+            android:background="@drawable/border_button_ajout"
+            android:id="@+id/buttonModification"
+            />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_button_ajout"
+            android:text="Supprimer"
+            android:textColor="@color/colorELm"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/buttonSupprimer"
+            />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_button_ajout"
+            android:text="liste d'exploitants "
+            android:textColor="@color/colorELm"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/listeEploitant"
+            />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_button_ajout"
+            android:text="liste d'exploitations "
+            android:textColor="@color/colorELm"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/listeEploitations"
+            />
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/retour"
+            android:id="@+id/imageButtonExit"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

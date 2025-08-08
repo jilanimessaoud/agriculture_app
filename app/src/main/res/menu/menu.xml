@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+<item
+
+    android:id="@+id/menuConslt"
+    android:title="Des statistiques"
+    app:showAsAction="always"
+
+    >
+</item>
+
+    <item
+        android:id="@+id/menuSort"
+        android:title="Traitement des données"
+        app:showAsAction="always"
+
+        >
+    </item>
+
+
+
+    <item
+        android:id="@+id/anm"
+        android:title="Pour les animaux"
+        >
+                    <menu>
+                        <item
+                            android:id="@+id/Fou"
+                            android:title="Pour les oiseaux"
+                            >
+
+                        </item>
+                        <item
+                            android:id="@+id/Les_lapins"
+                            android:title="Bétail"
+                            >
+
+                        </item>
+                        <item
+                            android:id="@+id/tout"
+                            android:title="Pour tous"
+                            >
+
+                        </item>
+
+                    </menu>
+
+    </item>
+
+
+    <item
+        android:id="@+id/plantes"
+        android:title="Pour les plantes"
+                        >
+                        <menu>
+                            <item
+                                android:id="@+id/p1"
+                                android:title="Pour les arbres"
+                                >
+
+                            </item>
+                            <item
+                                android:id="@+id/p2"
+                                android:title="Pour les légumes"
+                                >
+
+                            </item>
+                            <item
+                                android:id="@+id/p3"
+                                android:title="Pour tous"
+                                >
+
+                            </item>
+
+        </menu>
+
+    </item>
+
+
+    <item
+        android:id="@+id/arbre_anm"
+        android:title="plantes + animaux"
+        >
+
+    </item>
+
+</menu>

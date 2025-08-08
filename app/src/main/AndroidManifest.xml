@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dellpc.project_pfe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Controleur.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.ViewLogin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".View.ViewListeDelegation" />
+        <activity android:name=".View.ViewMenuAjout" />
+        <activity android:name=".View.CaracteristiqueExploitationEtape1" />
+        <activity android:name=".View.CaracteristiquePersonneEtape1" />
+        <activity android:name=".View.CaracteristiquePersonneEtape2" />
+        <activity android:name=".View.CaracteristiqueExploitationEtape2" />
+        <activity android:name=".View.CaracteristiqueExploitationEtpae3" />
+        <activity android:name=".View.CaracteristiquePersonneEtape3" />
+        <activity android:name=".View.PlusInfo" />
+        <activity android:name=".View.ViewMenuAjout$DirectionResponsable" />
+        <activity android:name=".View.DirectionStatistique" />
+        <activity android:name=".View.ViewStat$ViewStatCercle" />
+        <activity android:name=".View.ViewSatBar" />
+        <activity android:name=".View.DirectionDiagrammeBaton" />
+        <activity android:name=".View.ListeSecteur" />
+        <activity android:name=".View.ChoixTypeProduit" />
+        <activity android:name=".View.ProduitExploitation" />
+        <activity android:name=".View.ViewMenuSuprimer" />
+        <activity android:name=".View.ViewSuprimerExploitation" />
+        <activity android:name=".View.ViewSuprimerExploitant" />
+        <activity android:name=".View.MenuModification" />
+        <activity android:name=".View.ModificationIdentificationExploitation" />
+        <activity android:name=".View.ModificationExploitant" />
+        <activity android:name=".View.ModificationOcupSol" />
+        <activity android:name=".View.ModificationcaracteristiqueExploitationEtape1" />
+        <activity android:name=".View.ModificationListeProduit" />
+        <activity android:name=".View.ViewListeExploitation" />
+        <activity android:name=".View.ListeExploitant" />
+        <activity android:name=".View.ViewListeProduit" />
+        <activity android:name=".View.DirectionResponsable"></activity>
+    </application>
+
+</manifest>

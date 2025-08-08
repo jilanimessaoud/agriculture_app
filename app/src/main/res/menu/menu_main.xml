@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.dellpc.project_pfe.View.ViewLogin"
+    >
+
+    <item
+        android:id="@+id/menuConslt"
+        android:title="Cas d'absentéisme"
+
+
+        >
+    </item>
+    <item
+        android:id="@+id/menuSort"
+        android:title="Terminer le travail"
+        >
+    </item>
+    <item
+        android:id="@+id/SuppAbs"
+        android:title="Supprimer l'absence"
+        >
+    </item></menu>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/Total_gouvarnorat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_button_ajout"
+                android:text="Représentation graphique par secteur"
+                android:textStyle="bold"
+                android:textColor="@color/colorELm"
+                />
+
+            <Button
+                android:textStyle="bold"
+                android:textColor="@color/colorELm"
+                android:background="@drawable/border_button_ajout"
+                android:id="@+id/graphiqueBar"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diagramme en bâton" />
+
+
+    <ImageButton
+
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:background="@drawable/retour"
+        android:id="@+id/imageButtonREtourActivityRespons"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/type"
+
+        />
+
+    <lecho.lib.hellocharts.view.PieChartView
+        android:id="@+id/chart1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/colorELm"
+        android:outlineSpotShadowColor="@color/colorELm"
+        />
+
+
+</LinearLayout>

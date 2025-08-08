@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.CaracteristiquePersonneEtape1">
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Caractéristique du gérant"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom et Prénom"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="13dp"
+        />
+    <EditText
+        android:id="@+id/textNomPrenom"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="15"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:hint="Nom Et Prénom"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexe"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+
+    <RadioGroup
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Femme"
+            android:textColor="@color/noir"
+            android:textStyle="bold"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Homme"
+            android:textStyle="bold"
+
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+    <EditText
+        android:id="@+id/textAge"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="15"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:hint="Age"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numéro de mobile"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+    <EditText
+        android:id="@+id/textNMobile"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="15"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:hint="Numéro de mobile"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lieu de la résidence princibale "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/noir"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="13dp"
+            />
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="13dp"
+            android:id="@+id/spinerLeurRes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si vous habitez hors l'exploitation , Citez l'adesse ! "
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+    <EditText
+        android:id="@+id/textAdresse"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="15"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:hint="Adresse"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+
+            >
+
+            <ImageButton
+                android:id="@+id/imageButtonPredgerant"
+                android:layout_marginTop="10dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/retourqst"
+                android:background="@color/colorELm"
+                />
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Retour"
+                android:textStyle="bold|italic"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+
+            >
+
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/imageButtonSuivaGerant"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nextqst"
+                android:background="@color/colorELm"
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Suivant"
+                android:textStyle="bold|italic"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

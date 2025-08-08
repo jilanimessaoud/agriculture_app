@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="caractéristiques d'exploitation "
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/noir"
+        android:textSize="20dp"
+        />
+       <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Superficie totale (Ha) "
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:text="0"
+        android:id="@+id/SPtotale"
+        android:background="@drawable/border"
+        android:hint="Superficie totale (Ha)"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Superficie labourable (Ha) "
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:text="0"
+        android:id="@+id/SpLAb"
+        android:background="@drawable/border"
+        android:hint="Superficie labourable (Ha)"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Superficie cultivée (Ha) "
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:id="@+id/Spcultiv"
+        android:background="@drawable/border"
+        android:hint="Superficie cultivée (Ha)"
+        android:text="0"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Superficie irrigable (Ha) "
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:hint="Superficie irrigable (Ha)"
+        android:text="0"
+        android:id="@+id/spIrrig"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre d'employés"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:hint="Nombre d'employés"
+        android:text="0"
+        android:id="@+id/nbempl"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+
+            >
+
+            <ImageButton
+                android:id="@+id/imageButtonPredOccup"
+                android:layout_marginTop="10dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/retourqst"
+                android:background="@color/colorELm"
+                />
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Retour"
+                android:textStyle="bold|italic"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+
+            >
+
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/imageButtonSuivaOccup"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nextqst"
+                android:background="@color/colorELm"
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Suivant"
+                android:textStyle="bold|italic"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

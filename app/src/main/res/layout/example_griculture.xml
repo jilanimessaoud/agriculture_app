@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".View.ViewQuestionnaire"
+    android:background="@color/ListeAjout"
+
+    >
+    <Button
+        android:id="@+id/buttomIdentificationExploitation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_marginRight="30dp"
+        android:textSize="15dp"
+        android:text="Identification de l'exploitation  "
+        android:textColor="@color/colorq"
+        android:background="@drawable/border_button_ajout"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/buttonCaracterstiqueExploitant"
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/border_button_ajout"
+        android:text="caractéristiques de l'exploitant"
+        android:textColor="@color/colorq"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/border_button_ajout"
+        android:text="caractéristiques du gerant"
+        android:textColor="@color/colorq"
+        android:textStyle="bold"
+        android:id="@+id/buttonCaracteristiqueGerant"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buttonExploitation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/border_button_ajout"
+        android:text="caractéristiques de l'exloitation"
+        android:textColor="@color/colorq"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buttonOccupationSol"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/border_button_ajout"
+        android:textStyle="bold"
+        android:text="occupation du sol"
+        android:textColor="@color/colorq"
+        android:textSize="15dp" />
+
+
+
+
+
+
+
+    <ImageButton
+        android:id="@+id/imageButtonretourlisteAjout"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/button"
+
+        app:srcCompat="@drawable/ic_keyboard_return_black_24dp"
+
+        />
+
+
+
+</LinearLayout>

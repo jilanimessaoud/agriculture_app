@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_liste__zone">Liste_Zone</string>
+    <string-array name="lieuRes">
+        <item name="d">Dans l"'"exploitation</item>
+        <item name="d">Hors l"'"exploitation</item>
+    </string-array>
+    <string-array name="NV_inst">
+        <item>Analphabéte</item>
+        <item>Lire/écrire</item>
+        <item>Primaire</item>
+        <item>De base</item>
+        <item>Secondaire</item>
+        <item>Universitaire</item>
+    </string-array>
+
+    <string-array name="typeFormation">
+        <item>Aucun</item>
+        <item>Apprentissage sur le tas</item>
+        <item>Formation occasionnelle</item>
+        <item>Formation diplômante</item>
+
+    </string-array>
+
+    <string-array name="diplome">
+        <item>Aucun</item>
+        <item>CAP</item>
+        <item>CC</item>
+        <item>BTP</item>
+        <item>BTS</item>
+    </string-array>
+    <string-array name="activite">
+        <item>Agriculture</item>
+        <item>Pêche</item>
+        <item>Autre activité</item>
+
+    </string-array>
+
+    <string-array name="Juridique">
+        <item>Expl.Indiv.privée</item>
+        <item>SMVDA</item>
+        <item>Agro cambinat</item>
+        <item>Lot technicien</item>
+        <item>Société de fait </item>
+        <item>Coop.Agricole</item>
+        <item>Jeunes agriculteurs</item>
+        <item>A.terres de l"'"état</item>
+        <item>Terres de  l"'"état à la disposition des institutions</item>
+
+    </string-array>
+
+    <string-array name="ActiviteExploitation">
+        <item>Production Végètale</item>
+        <item>Production animale</item>
+        <item>Mixte</item>
+
+    </string-array>
+    <string-array name="ProductionExploitation">
+        <item>Auto consomation</item>
+        <item>Marché locale</item>
+        <item>Export</item>
+
+    </string-array>
+    <string-array name="TypeAssurance">
+        <item>Aucun</item>
+        <item>Gréte</item>
+        <item>Incendie</item>
+        <item>Mort des animaux</item>
+        <item>Vol</item>
+        <item>Autres </item>
+
+    </string-array>
+    <string-array name="RS_Non_Assurance">
+        <item>Coût élevé de l"'"assurance</item>
+        <item>Raisons indéologique</item>
+        <item>Procédures sompliquées </item>
+        <item>Réticence des assurances </item>
+        <item>dans les zone à risques</item>
+        <item>Autres raisons </item>
+    </string-array>
+
+    <string-array name="AutravesDevelop">
+        <item>Manque de main d"'"oeuvre</item>
+        <item>Endettement</item>
+        <item>Situation fonciére</item>
+        <item>Morecellement de la terre </item>
+        <item>Difficulté d"'"acces à l"'"eau d"'"irrigation</item>
+        <item>Inflation des intrans  </item>
+        <item>Difficulté commercialisation</item>
+        <item>Difficulté de transport</item>
+        <item>Maladies des plantes </item>
+        <item>Baisse de ferlilité </item>
+        <item>Erosion</item>
+        <item>Stockage </item>
+        <item>Difficulté d"'"accés au crédit</item>
+        <item>Catastrophes naturelles </item>
+        <item>Vol </item>
+        <item>Autres Entraves </item>
+    </string-array>
+    <string-array name="SouvcesPret">
+        <item>BNA</item>
+        <item>BTS</item>
+        <item> Autres banque </item>
+        <item> Coopérative </item>
+        <item>Fournisseur</item>
+        <item>Autres Sources </item>
+    </string-array>
+    <string-array name="EtulisationCréditAgr">
+        <item>Animaux pour élevage</item>
+        <item>Infrastructure</item>
+        <item> Puits/Matériaux d"'"irrigaion </item>
+        <item> Equipement </item>
+        <item>Achats des plants</item>
+    </string-array>
+    <string-array name="EtulisationPret">
+        <item>Intrants agricoles </item>
+        <item>opérations agricoles</item>
+        <item> Semences  </item>
+        <item> Autres utilisations </item>
+
+    </string-array>
+    <string-array name="RS_Non_pret">
+        <item>Endettement</item>
+        <item>Titre foncier</item>
+        <item>Difficulté de fournir l"'"autofinacement </item>
+        <item>Absence de caution  </item>
+        <item>Taux  d"'"interet élevé </item>
+        <item>Procédures complexes </item>
+        <item>Autres raisons </item>
+    </string-array>
+
+</resources>

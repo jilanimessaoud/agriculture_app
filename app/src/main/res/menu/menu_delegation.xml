@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+<item
+
+    android:id="@+id/menuprincipal"
+    android:title="menu principal "
+    app:showAsAction="always"
+
+    >
+
+</item>
+
+    <item
+        android:title="Pour les exploiteurs"
+        >
+                <menu>
+            <item
+                android:id="@+id/NV"
+                android:title=" Par Niveau d'instruction"
+                >
+            </item>
+
+
+                    <item
+                        android:id="@+id/F_dip"
+                        android:title=" Par formation est diplomante"
+                        >
+                    </item>
+
+                    <item
+                        android:id="@+id/ActPrincpl"
+                        android:title="Par Activité pricipale"
+                        >
+                    </item>
+
+                    <item
+                        android:id="@+id/age_ex"
+                        android:title="Par age"
+                        >
+                    </item>
+                </menu>
+
+
+    </item>
+
+
+
+    <item
+        android:id="@+id/anm"
+        android:title="Pour les animaux"
+        >
+                    <menu>
+                        <item
+                            android:id="@+id/Aviculture"
+                            android:title="Aviculture"
+                            >
+
+                        </item>
+                        <item
+                            android:id="@+id/bovins"
+                            android:title="Pour les bovins"
+                            >
+
+                        </item>
+                        <item
+                            android:id="@+id/tout"
+                            android:title="Pour tous"
+                            >
+
+                        </item>
+
+                    </menu>
+
+    </item>
+
+
+    <item
+        android:id="@+id/arbre"
+        android:title="Pour les arbres"
+        >
+
+    </item>
+    <item
+        android:id="@+id/SuperficieLabourable"
+        android:title="Superficie Labourable"
+        >
+
+    </item>
+    <item
+        android:id="@+id/SuperficieIrriguée"
+        android:title="Superficie Irriguée"
+        >
+
+    </item>
+    <item
+        android:id="@+id/typeIrriguée"
+        android:title="type du périmètre irrigué"
+        >
+
+    </item>
+</menu>

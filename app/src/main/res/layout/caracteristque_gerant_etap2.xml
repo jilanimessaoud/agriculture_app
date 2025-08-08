@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.CaracteristiquePersonneEtape2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="13dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Niveau d'instraction : "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/noir"
+            />
+        <Spinner
+
+            android:layout_marginLeft="30dp"
+            android:id="@+id/spinerNV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        </Spinner>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avez-vous eu une formation agricole : "
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        />
+    <RadioGroup
+
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oui"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oui"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si oui , Quel est le type de cette formation  :  "
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        />
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/typeFormation"
+        >
+
+    </Spinner>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si la formation est diplômante , citez voos diplômes : "
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        />
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/diplome"
+        >
+
+    </Spinner>
+    <LinearLayout
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activité principale de l'éxploitant"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/noir"
+            />
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:id="@+id/activite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Spinner>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taille du ménage sans tenir compte de l'exploitant : "
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        />
+
+
+    <LinearLayout
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homme"
+            android:textColor="@color/noir"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            />
+        <EditText
+            android:hint="Homme"
+            android:id="@+id/f"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_gravity="fill_horizontal"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Femme"
+            android:textColor="@color/noir"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            />
+        <EditText
+            android:hint="Femme"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/editText71"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_gravity="fill_horizontal"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direction technique de l'exploitation :"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/noir"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="10dp"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exploitant"
+            android:textStyle="bold"
+
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gérant"
+            android:textStyle="bold"
+
+            />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+
+            >
+
+            <ImageButton
+                android:id="@+id/predCarectristiqueGerEtap2"
+                android:layout_marginTop="10dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/retourqst"
+                android:background="@color/colorELm"
+                />
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Retour"
+                android:textStyle="bold|italic"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+
+            >
+
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/suivCarectristiqueExplEtap2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nextqst"
+                android:background="@color/colorELm"
+                />
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Suivant"
+                android:textStyle="bold|italic"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
